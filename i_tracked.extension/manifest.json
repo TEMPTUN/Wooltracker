@@ -1,0 +1,12 @@
+{
+    "manifest_version":3,
+    "version":"3.3",
+    "name":"i_tracked",
+    "action":{
+        "default_popup":"4-extension.html",
+        "default_icon":"i_tracked.png"
+    },
+    "permissions":[
+        "tabs"
+    ]
+}

@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    padding:10px;
+    padding-right: 10px;
+    font-family:Arial, Helvetica, sans-serif ;
+    min-width: 400px;
+
+}
+input{
+    border-color:#5f9341;
+    width:100%; /*it includes 100%+5px+5px instead use box-sizing*/
+    height:40px;
+    padding:10px;
+    /* padding-right: 5px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px; */
+    box-sizing: border-box;
+    margin-bottom: 4px;
+}
+button{
+    font-weight: bold;
+    box-shadow: aquamarine;
+    background-color: green;
+    color: honeydew;
+    border: 1px solid green;
+    padding:10px 20px;
+    /* padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px; */    
+}
+#del{
+    color: green;
+    background-color:whitesmoke; 
+    border-color: green;
+}
+ul{
+    margin-top: 30px;
+    list-style: none;
+    padding-left: 2px;
+    color: green;
+}
+li{
+    color: green;
+    margin-top: 5px;
+}
+li a{/*targets specfic*/
+    color: green;
+}
